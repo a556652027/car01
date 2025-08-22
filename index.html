@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>專題</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <script src="/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <header>
+        <div>
+            <h1>LOGO</h1>
+        </div>
+    </header>
+
+    <main>
+   <div class="displacement">
+      <button class="filter-btn" data-group="displacement" data-filter="under50">50cc以下</button>
+      <button class="filter-btn" data-group="displacement" data-filter="51to100">51~100cc</button>
+      <button class="filter-btn" data-group="displacement" data-filter="101to150">101~150cc</button>
+      <button class="filter-btn" data-group="displacement" data-filter="151to250">151~250cc</button>
+      <button class="filter-btn" data-group="displacement" data-filter="251to550">251~550cc</button>
+      <button class="filter-btn" data-group="displacement" data-filter="over550">550cc以上</button>
+    </div>
+    <div class="bike-brand" >
+        <button class="filter-btn" data-group="brand" data-filter="honda">Honda</button>
+        <button class="filter-btn" data-group="brand" data-filter="yamaha">Yamaha</button>
+        <button class="filter-btn" data-group="brand" data-filter="suzuki">Suzuki</button>
+        <button class="filter-btn" data-group="brand" data-filter="sym">Sym</button>
+        <button class="filter-btn" data-group="brand" data-filter="kymco">Kymco</button>
+        <button class="filter-btn" data-group="brand" data-filter="aeon">Aeon</button>
+        <button class="filter-btn" data-group="brand" data-filter="hartford">Hartford</button>
+        <button class="filter-btn" data-group="brand" data-filter="cpi">CPI</button>
+        <button class="filter-btn" data-group="brand" data-filter="ducati">Ducati</button>
+        <button class="filter-btn" data-group="brand" data-filter="aprilia">Aprilia</button>
+        <button class="filter-btn" data-group="brand" data-filter="mv">MV Agusta</button>
+        <button class="filter-btn" data-group="brand" data-filter="harley">Harley-Davidson</button>
+        <button class="filter-btn" data-group="brand" data-filter="bmw">BMW</button>
+        <button class="filter-btn" data-group="brand" data-filter="triumph">Triumph</button>
+        <button class="filter-btn" data-group="brand" data-filter="ktm">KTM</button>
+        <button class="filter-btn" data-group="brand" data-filter="gasgas">GasGas</button>
+       
+    </div>
+    <div class="ride-brand" >
+        <button class="filter-btn" data-group="type"  data-filter="naked">街車</button>
+        <button class="filter-btn" data-group="type"  data-filter="sport">仿賽</button>
+        <button class="filter-btn" data-group="type"  data-filter="offroad">越野</button>
+        <button class="filter-btn" data-group="type"  data-filter="adv">多功能</button>
+        <button class="filter-btn" data-group="type"  data-filter="suv">休旅</button>
+        <button class="filter-btn" data-group="type"  data-filter="touring">旅跑</button>
+    </div>
+
+    <div class="image-area">
+        <img src="./images/msx.png" class="bike-img"
+       data-displacement="101to150"
+       data-brand="honda"
+       data-type="naked"
+       alt="Honda 125cc Naked" />
+
+        <img src="./images/r7.png" class="bike-img"
+       data-displacement="over550"
+       data-brand="yamaha"
+       data-type="sport"
+       alt="Yamaha 550cc Sport" />
+      
+       <img src="./images/monkey50.png" class="bike-img"
+       data-displacement="under50"
+       data-brand="honda"
+       data-type="naked"
+       alt="Honda 50cc Naked" />
+
+        <img src="/images/cc50.png" class="bike-img"
+       data-displacement="under50"
+       data-brand="honda"
+       data-type="naked"
+       alt="Honda 50cc Naked" />
+
+       <img src="/images/pw50.png" class="bike-img"
+       data-displacement="under50"
+       data-brand="yamaha"
+       data-type="offroad"
+       alt="Yamaha 50cc Offroad" />
+
+        <img src="/images/rs50.png" class="bike-img"
+       data-displacement="under50"
+       data-brand="aprilia"
+       data-type="sport"
+       alt="Aprilia 50cc Sport" />
+
+        <img src="/images/rg50.png" class="bike-img"
+       data-displacement="under50"
+       data-brand="suzuki"
+       data-type="sport"
+       alt="Suzuki 50cc Sport" />
+
+        <img src="/images/wowow100.png" class="bike-img"
+       data-displacement="51to100"
+       data-brand="sym"
+       data-type="naked"
+       alt="Sym 100cc Naked" />
+
+        <img src="/images/R15.png" class="bike-img"
+       data-displacement="101to150"
+       data-brand="yamaha"
+       data-type="sport"
+       alt="Yamaha 150cc Sport" />
+
+       <img src="/images/mt15.png" class="bike-img"
+       data-displacement="101to150"
+       data-brand="yamaha"
+       data-type="naked"
+       alt="Yamaha 150cc Naked" />
+
+        <img src="/images/r150.png" class="bike-img"
+       data-displacement="101to150"
+       data-brand="suzuki"
+       data-type="sport"
+       alt="Suzuki 150cc Sport" />
+
+       <img src="/images/s150.png" class="bike-img"
+       data-displacement="101to150"
+       data-brand="suzuki"
+       data-type="naked"
+       alt="Suzuki 150cc Naked" />
+
+       <img src="/images/duke125.png" class="bike-img"
+       data-displacement="101to150"
+       data-brand="ktm"
+       data-type="naked"
+       alt="KTM 125cc Naked" />
+
+        <img src="/images/cb150r.png" class="bike-img"
+       data-displacement="101to150"
+       data-brand="honda"
+       data-type="naked"
+       alt="Honda 150cc Naked" />
+
+       <img src="/images/my150.png" class="bike-img"
+       data-displacement="101to150"
+       data-brand="aeon"
+       data-type="naked"
+       alt="Aeon 150cc Naked" />
+
+        <img src="/images/quannon.png" class="bike-img"
+       data-displacement="101to150"
+       data-brand="kymco"
+       data-type="sport"
+       alt="Kymco 150cc Sport" />
+
+       <img src="/images/nk150.png" class="bike-img"
+       data-displacement="101to150"
+       data-brand="kymco"
+       data-type="naked"
+       alt="Kymco 150cc Naked" />
+
+        <img src="/images/sc110.png" class="bike-img"
+       data-displacement="101to150"
+       data-brand="honda"
+       data-type="naked"
+       alt="Honda 110cc Naked" />
+
+       <img src="/images/cc110.png" class="bike-img"
+       data-displacement="101to150"
+       data-brand="honda"
+       data-type="naked"
+       alt="Honda 110cc Naked" />
+
+       <img src="/images/ktr150.png" class="bike-img"
+       data-displacement="101to150"
+       data-brand="kymco"
+       data-type="naked"
+       alt="Kymco 150cc Naked" />
+
+        <img src="/images/crf150.png" class="bike-img"
+       data-displacement="101to150"
+       data-brand="honda"
+       data-type="offroad"
+       alt="Honda 150cc Offroad" />
+
+       <img src="/images/CT125.png" class="bike-img"
+       data-displacement="101to150"
+       data-brand="honda"
+       data-type="naked"
+       alt="Honda 125cc Naked" />
+
+       <img src="/images/t1.png" class="bike-img"
+       data-displacement="101to150"
+       data-brand="sym"
+       data-type="naked"
+       alt="Sym 150cc Naked" />
+
+       <img src="/images/wolf125.png" class="bike-img"
+       data-displacement="101to150"
+       data-brand="sym"
+       data-type="naked"
+       alt="Sym 125cc Naked" />
+
+       <img src="/images/wolf150.png" class="bike-img"
+       data-displacement="101to150"
+       data-brand="sym"
+       data-type="naked"
+       alt="Sym 150cc Naked" />
+
+       <img src="/images/fzs.png" class="bike-img"
+       data-displacement="101to150"
+       data-brand="yamaha"
+       data-type="naked"
+       alt="Yamaha 150cc Naked" />
+
+       <img src="/images/z125.png" class="bike-img"
+       data-displacement="101to150"
+       data-brand="kawasaki"
+       data-type="naked"
+       alt="Kawasaki 150cc Naked" />
+
+       <img src="/images/gixxer.png" class="bike-img"
+       data-displacement="151to250"
+       data-brand="suzuki"
+       data-type="naked"
+       alt="Suzuki 150cc Naked" />
+
+       <img src="/images/bandit.png" class="bike-img"
+       data-displacement="101to150"
+       data-brand="suzuki"
+       data-type="naked"
+       alt="Suzuki 150cc Naked" />
+
+       <img src="/images/mini.png" class="bike-img"
+       data-displacement="101to150"
+       data-brand="hartford"
+       data-type="naked"
+       alt="Hartford 125cc Naked" />
+
+       <img src="/images/air150.png" class="bike-img"
+       data-displacement="101to150"
+       data-brand="kymco"
+       data-type="naked"
+       alt="Kymco 150cc Naked" />
+
+       <img src="/images/mx150.png" class="bike-img"
+       data-displacement="101to150"
+       data-brand="cpi"
+       data-type="naked"
+       alt="CPI 150cc Naked" />
+
+       <img src="/images/sr150.png" class="bike-img"
+       data-displacement="101to150"
+       data-brand="yamaha"
+       data-type="naked"
+       alt="Yamaha 150cc Naked" />
+
+       <img src="/images/kindori.png" class="bike-img"
+       data-displacement="101to150"
+       data-brand="kymco"
+       data-type="naked"
+       alt="Kymco 150cc Naked" />
+
+       <img src="/images/b1 125.png" class="bike-img"
+       data-displacement="101to150"
+       data-brand="kawasaki"
+       data-type="naked"
+       alt="Kawasaki 125cc Naked" />
+
+       <img src="/images/gk125.png" class="bike-img"
+       data-displacement="101to150"
+       data-brand="kymco"
+       data-type="naked"
+       alt="Kymco 125cc Naked" />
+
+       <img src="/images/lion125.png" class="bike-img"
+       data-displacement="101to150"
+       data-brand="suzuki"
+       data-type="naked"
+       alt="Suzuki 125cc Naked" />
+
+       <img src="/images/cbr150r.png" class="bike-img"
+       data-displacement="101to150"
+       data-brand="honda"
+       data-type="sport"
+       alt="Honda 150cc Sport" />
+
+       <img src="/images/nsr250.png" class="bike-img"
+       data-displacement="151to250"
+       data-brand="honda"
+       data-type="sport"
+       alt="Honda 250cc Sport" />
+
+        <img src="/images/nsr150.png" class="bike-img"
+       data-displacement="101to150"
+       data-brand="kymco"
+       data-type="sport"
+       alt="Kymco 150cc Sport" />
+
+       <img src="/images/ducati scr.png" class="bike-img"
+       data-displacement="over550"
+       data-brand="ducati"
+       data-type="naked"
+       alt="Ducati 550cc Naked" />
+
+        <img src="/images/MV-Agusta-Brutale-1000-RR.png" class="bike-img"
+       data-displacement="over550"
+       data-brand="mv"
+       data-type="naked"
+       alt="MV Agusta 550cc Naked" />
+
+        <img src="/images/harley.png" class="bike-img"
+       data-displacement="over550"
+       data-brand="harley"
+       data-type="touring"
+       alt="Harley 550cc Touring" />
+
+       <img src="/images/r1250gs.png" class="bike-img"
+       data-displacement="over550"
+       data-brand="bmw"
+       data-type="adv"
+       alt="BMW 550cc Adventure" />
+
+       <img src="/images/t100.png" class="bike-img"
+       data-displacement="over550"
+       data-brand="triumph"
+       data-type="naked"
+       alt="Triumph 550cc Naked" />
+
+    </div>
+    </main>
+
+    <footer>
+
+    </footer>
+    <script src="./js/filter.js"></script>
+</body>
+</html>
